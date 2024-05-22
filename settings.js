@@ -24,25 +24,25 @@ global.sewabotnya = `
 edit sewabot di file settings.js line 24
 `
 // setting 
-global.firtsChat = true //send firts message to new user
-global.autoread = true // auto read message
+global.firtsChat = false //send firts message to new user
+global.autoread = false // auto read message
 global.antidelete = false // anti delete
-global.antiviewonce = true // anti view once
+global.antiviewonce = false // anti view once
 global.autobio = false //auto ganti bio
-global.anticall = true //anti call, jika true maka org yg nelpon bot auto di blokir
+global.anticall = false //anti call, jika true maka org yg nelpon bot auto di blokir
 global.userRegister = false
 global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
-global.autolevelup = true
+global.autolevelup = false
 global.auto_antilink = false //jika true, bot (admin) otomatis menghapus pesan & mengeluarkan member yang mengirim link grup
-global.auto_antilink2 = true  //jika true, bot (admin) otomatis menghapus pesan member yang mengirim link grup
+global.auto_antilink2 = false  //jika true, bot (admin) otomatis menghapus pesan member yang mengirim link grup
 global.auto_badword = false //jika true, bot (admin) otomatis menghapus pesan & mengeluarkan member yg mengirim kata kasar
-global.auto_badword2 = true  //jika true, bot (admin) otomatis menghapus pesan member yang mengirim kata kasar
+global.auto_badword2 = false  //jika true, bot (admin) otomatis menghapus pesan member yang mengirim kata kasar
 global.auto_antiwame = false  //jika true, bot (admin) otomatis menghapus pesan & mengeluarkan member yang mengirim link grup
 global.auto_antiwame2 = true  //jika true, bot (admin) otomatis menghapus pesan member yang mengirim link grup
 global.autowelcome = true //auto welcome msg all group
-global.autodetectpromote = true //auto detect admin all group
-global.autodetectdemote = true //auto detect un admin all group
-global.autogoodbye = true //auto goodbye msg all group
+global.autodetectpromote = false //auto detect admin all group
+global.autodetectdemote = false //auto detect un admin all group
+global.autogoodbye = false //auto goodbye msg all group
 global.groupOnly = false //bot hanya bisa di gunakan dalam grup jika true
 
 //language
@@ -54,7 +54,7 @@ global.language = indonesia //change indonesia to english if you don't understan
 
 // Other
 // Other
-global.pairingNumber = "" //masukkan nomor yang ingin menjadi bot agar pairing code muncul pada saat install melalui panel
+global.pairingNumber = "62895376867500" //masukkan nomor yang ingin menjadi bot agar pairing code muncul pada saat install melalui panel
 global.botname = "ྂ✈ᵇᵒᵗ𝒈𝒊𝒓𝒍✔-Mdོ" //namabot kalian
 global.ownername = "ᴹᴿ᭄ ྂᴋᴀɴɢ ᴋᴏᴍᴘᴏʀ🍓⃝﷽ོ ×፝֟͜×l" //nama kalian
 global.myweb = "https://vt.tiktok.com/ZSYJTTbc4" //bebas asal jan hapus
